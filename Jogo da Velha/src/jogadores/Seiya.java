@@ -1,12 +1,9 @@
 package jogadores;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
 public class Seiya extends Jogador{
     
-    private List<String> ultimasJogadas = new ArrayList<>();
     private int simbolo;
 
     public Seiya(String nome) {
